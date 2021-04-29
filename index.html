@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-header-wrapper">
+      <h1 class="logo">Weather<span>Now</span></h1>
+      <div class="container">
+        <!--*-->
+        <div class="text-inside-header-img">
+          <!--~-->
+          <!--*left side of header-->
+
+          <div class="left-side-of-header">
+            <h2>Get real time weather information.</h2>
+            <br /><br />
+            <p>
+              All you have to do is type in a location and you will get
+              temperature, a description of the day and the windspeed.
+            </p>
+          </div>
+          <!--~end left side of header-->
+
+          <!--*right-side-of-header-->
+          <div class="right-side-of-header">
+            <!--*searchbar and input-->
+            <div class="display-for-your-search">
+              <div class="search-part-of-display">
+                <input
+                  type="text"
+                  placeholder="Search a location..."
+                  class="display-search-bar"
+                />
+                <button class="button-to-search">Search</button>
+              </div>
+              <!--~searchbar and input-->
+              <!--*main info display-->
+              <div class="javascript-display">
+                <!--*-->
+
+                <div class="container-name-and-region">
+                  <h1 class="name-and-region"></h1>
+                </div>
+                <!--~-->
+
+                <!--*-->
+                <div class="temperature-icon-display">
+                  <img
+                    style="max-width: 40px"
+                    src=""
+                    alt=""
+                    class="display-icon"
+                  />
+                  <h1 class="display-temperature"></h1>
+                </div>
+                <!--~-->
+
+                <!--*-->
+                <div class="feels-like-description">
+                  <p class="display-feels-like"></p>
+                  <p class="display-description"></p>
+                </div>
+                <hr />
+                <!--~-->
+
+                <!--*-->
+                <h3 class="display-windspeed"></h3>
+                <!--~-->
+              </div>
+              <!--~main info display-->
+            </div>
+          </div>
+          <!--~right side of header-->
+        </div>
+      </div>
+    </div>
+    <!--*end main wrapper-->
+
+    <!--*section-2-->
+    <section class="wrapper-section-2">
+      <div class="container">
+        <h1 class="second-section-header">More locations</h1>
+        <div class="grid-container-section-2">
+          <!--*box- begin-->
+          <div class="main-outer-box">
+            <div id="name-and-region-1" class="region-and-name-container">
+              <h1></h1>
+            </div>
+            <div class="temp-and-img">
+              <img id="display-icon-1" src="" alt="" />
+              <h1 id="display-temperature-1" class="section-2-temp"></h1>
+            </div>
+            <div class="section-2-temp-and-desc">
+              <p id="display-feels-like-1"></p>
+              <p id="display-description-1"></p>
+            </div>
+            <hr />
+            <h3 id="display-windspeed-1" class="section-2-wind-speed"></h3>
+          </div>
+          <!--~end box-->
+          <!--*box- begin-->
+          <div class="main-outer-box">
+            <div id="name-and-region-2" class="region-and-name-container">
+              <h1></h1>
+            </div>
+            <div class="temp-and-img">
+              <img id="display-icon-2" src="" alt="" />
+              <h1 id="display-temperature-2" class="section-2-temp"></h1>
+            </div>
+            <div class="section-2-temp-and-desc">
+              <p id="display-feels-like-2"></p>
+              <p id="display-description-2"></p>
+            </div>
+            <hr />
+            <h3 id="display-windspeed-2" class="section-2-wind-speed"></h3>
+          </div>
+          <!--~end box-->
+          <!--*box- begin-->
+          <div class="main-outer-box">
+            <div id="name-and-region-3" class="region-and-name-container">
+              <h1></h1>
+            </div>
+            <div class="temp-and-img">
+              <img id="display-icon-3" src="" alt="" />
+              <h1 id="display-temperature-3" class="section-2-temp"></h1>
+            </div>
+            <div class="section-2-temp-and-desc">
+              <p id="display-feels-like-3"></p>
+              <p id="display-description-3"></p>
+            </div>
+            <hr />
+            <h3 id="display-windspeed-3" class="section-2-wind-speed"></h3>
+          </div>
+          <!--~end box-->
+          <!--*box- begin-->
+          <div class="main-outer-box">
+            <div id="name-and-region-4" class="region-and-name-container">
+              <h1></h1>
+            </div>
+            <div class="temp-and-img">
+              <img id="display-icon-4" src="" alt="" />
+              <h1 id="display-temperature-4" class="section-2-temp"></h1>
+            </div>
+            <div class="section-2-temp-and-desc">
+              <p id="display-feels-like-4"></p>
+              <p id="display-description-4"></p>
+            </div>
+            <hr />
+            <h3 id="display-windspeed-4" class="section-2-wind-speed"></h3>
+          </div>
+          <!--~end box-->
+        </div>
+      </div>
+    </section>
+    <!--~end section-2-->
+
+    <footer>
+      &copy; Copyright
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      , Ignacio
+    </footer>
+
+    <!--*scripts-->
+    <script src="js/script.js"></script>
+    <!--~end scripts-->
+  </body>
+</html>
