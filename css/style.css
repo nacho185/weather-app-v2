@@ -4,7 +4,8 @@
   margin: 0;
 }
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Newsreader", serif;
+  letter-spacing: px;
 }
 .container {
   width: 90%;
