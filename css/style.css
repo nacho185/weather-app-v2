@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Newsreader", serif;
+  overflow-x: hidden;
 }
 .container {
   width: 90%;
@@ -23,6 +24,22 @@ body {
   padding: 7px 5px;
 }
 /*~end display-for-your-search*/
+/*cursor*/
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(35, 147, 240);
+  border-radius: 10px;
+}
+
+/*end cursor*/
 /**logo*/
 .logo {
   padding: 20px 0 0 40px;
