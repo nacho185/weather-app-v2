@@ -1,3 +1,14 @@
+/*enter button*/
+let searchInput = document.getElementById("theUserInput");
+searchInput.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("theUserInputClick").click();
+  }
+});
+
+/*end enter button*/
+
 /*let and const*/
 const button = document.querySelector(".button-to-search");
 let clientSearch = document.querySelector(".display-search-bar");
@@ -37,7 +48,7 @@ button.addEventListener("click", () => {
       console.log(data);
     })
     .catch((err) => {
-      console.log(err);
+      alert("Try again...");
     });
 });
 /*//*/

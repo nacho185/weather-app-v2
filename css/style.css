@@ -11,6 +11,9 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+.fa-search {
+  font-size: 1.2rem;
+}
 /*~end global*/
 /**display-for-your-search*/
 .display-search-bar {
@@ -21,8 +24,11 @@ body {
   font-size: 17px;
 }
 .button-to-search {
-  padding: 7px 5px;
+  padding: 7px;
+  background-color: #fff;
+  border-style: none;
 }
+
 /*~end display-for-your-search*/
 /*cursor*/
 /* width */
@@ -84,6 +90,18 @@ body {
   margin-left: 30px;
   min-height: 270px;
   padding: 30px;
+}
+.search-part-of-display {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.search-part-of-display input {
+  border-style: none;
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+.search-part-of-display input:focus {
+  outline: none;
 }
 /*~text-inside-header-img*/
 /**display*/
