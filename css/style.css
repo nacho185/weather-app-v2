@@ -51,8 +51,10 @@ body {
   padding: 20px 0 0 40px;
 }
 .logo span {
-  color: rgb(35, 147, 240);
+  /*color: rgb(35, 147, 240);*/
+  color: #17bebb;
 }
+
 /*~logo*/
 /**left-side-of-header*/
 .left-side-of-header {
@@ -155,7 +157,7 @@ body {
 .region-and-name-container {
 }
 .main-outer-box {
-  background-color: #555;
+  background-color: #364958;
   color: #fff;
   width: 80%;
   min-height: 270px;
@@ -165,9 +167,8 @@ body {
 .temp-and-img {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  background: linear-gradient(rgba(27, 189, 211, 0.7), rgba(27, 189, 211, 0.7));
   margin-top: 10px;
-  background-color: #82a43a;
+  background-color: #55828b;
 }
 .temp-and-img h1 {
   font-size: 4.5rem;
