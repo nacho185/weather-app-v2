@@ -41,7 +41,7 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(35, 147, 240);
+  background: #20a4f3;
   border-radius: 10px;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 .logo span {
   /*color: rgb(35, 147, 240);*/
-  color: #17bebb;
+  color: #20a4f3;
 }
 
 /*~logo*/
@@ -86,7 +86,8 @@ body {
 }
 .right-side-of-header {
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+  background: #011627;
   text-align: center;
   width: 80%;
   margin-left: 30px;
@@ -115,7 +116,7 @@ body {
 .temperature-icon-display {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: #555;
+  background-color: #011627;
   margin-top: 10px;
 }
 .display-temperature {
@@ -328,6 +329,11 @@ footer {
   }
   .left-side-of-header h2 {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 550px) {
+  .left-side-of-header p {
+    display: none;
   }
 }
 /*end media screen*/
