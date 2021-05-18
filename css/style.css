@@ -62,7 +62,7 @@ body {
 /**main-header-wrapper*/
 .main-header-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/headerimg.jpeg");
+    url("../assets/img/headerimg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
