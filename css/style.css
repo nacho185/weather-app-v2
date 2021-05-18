@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  font-family: "Newsreader", serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 .container {
@@ -53,10 +53,10 @@ body {
   width: 75%;
 }
 .left-side-of-header h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .left-side-of-header p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 /**~left-side-of-header*/
 /**main-header-wrapper*/
