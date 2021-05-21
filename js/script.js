@@ -39,8 +39,8 @@ button.addEventListener("click", () => {
         ".png";
       let searchRegion = data["sys"]["country"];
       /**/
-      feels.textContent = "Feels like: " + feelsLike.toFixed(1) + "℃";
-      temperature.textContent = temperatureDisplay.toFixed(1) + "℃";
+      feels.textContent = "Feels like: " + feelsLike.toFixed(1) + "°c";
+      temperature.textContent = temperatureDisplay.toFixed(1) + "°c";
       desc.textContent = description;
       windSpeed.textContent = "WindSpeed: " + speedWind;
       searchLocation.textContent = searchName + ", " + searchRegion;
@@ -73,8 +73,8 @@ fetch(urlPart1 + "houston" + "&units=metric" + "&appid=" + ACCESS_KEY)
       ".png";
     let searchRegion1 = data["sys"]["country"];
     /**/
-    feels1.textContent = "Feels like: " + feelsLike1.toFixed(1) + "℃";
-    temperature1.textContent = temperatureDisplay1.toFixed(1) + "℃";
+    feels1.textContent = "Feels like: " + feelsLike1.toFixed(1) + "°c";
+    temperature1.textContent = temperatureDisplay1.toFixed(1) + "°c";
     desc1.textContent = description1;
     windSpeed1.textContent = "WindSpeed: " + speedWind1;
     searchLocation1.textContent = searchName1 + ", " + searchRegion1;
@@ -103,8 +103,8 @@ fetch(urlPart1 + "alabama" + "&units=metric" + "&appid=" + ACCESS_KEY)
       ".png";
     let searchRegion2 = data["sys"]["country"];
     /**/
-    feels2.textContent = "Feels like: " + feelsLike2.toFixed(1) + "℃";
-    temperature2.textContent = temperatureDisplay2.toFixed(1) + "℃";
+    feels2.textContent = "Feels like: " + feelsLike2.toFixed(1) + "°c";
+    temperature2.textContent = temperatureDisplay2.toFixed(1) + "°c";
     desc2.textContent = description2;
     windSpeed2.textContent = "WindSpeed: " + speedWind2;
     searchLocation2.textContent = searchName2 + ", " + searchRegion2;
@@ -132,8 +132,8 @@ fetch(urlPart1 + "california" + "&units=metric" + "&appid=" + ACCESS_KEY)
       ".png";
     let searchRegion3 = data["sys"]["country"];
     /**/
-    feels3.textContent = "Feels like: " + feelsLike3.toFixed(1) + "℃";
-    temperature3.textContent = temperatureDisplay3.toFixed(1) + "℃";
+    feels3.textContent = "Feels like: " + feelsLike3.toFixed(1) + "°c";
+    temperature3.textContent = temperatureDisplay3.toFixed(1) + "°c";
     desc3.textContent = description3;
     windSpeed3.textContent = "WindSpeed: " + speedWind3;
     searchLocation3.textContent = searchName3 + ", " + searchRegion3;
@@ -160,8 +160,8 @@ fetch(urlPart1 + "washington" + "&units=metric" + "&appid=" + ACCESS_KEY)
       ".png";
     let searchRegion4 = data["sys"]["country"];
     /**/
-    feels4.textContent = "Feels like: " + feelsLike4.toFixed(1) + "℃";
-    temperature4.textContent = temperatureDisplay4.toFixed(1) + "℃";
+    feels4.textContent = "Feels like: " + feelsLike4.toFixed(1) + "°c";
+    temperature4.textContent = temperatureDisplay4.toFixed(1) + "°c";
     desc4.textContent = description4;
     windSpeed4.textContent = "WindSpeed: " + speedWind4;
     searchLocation4.textContent = searchName4 + ", " + searchRegion4;

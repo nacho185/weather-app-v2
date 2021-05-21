@@ -101,7 +101,7 @@ body {
 }
 .search-part-of-display input {
   border-style: none;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 8px;
   font-size: 1.1rem;
 }
