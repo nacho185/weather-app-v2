@@ -86,8 +86,9 @@ body {
 }
 .right-side-of-header {
   color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("landingpagepic.jpg");
 
-  background: #011627;
   text-align: center;
   width: 80%;
   margin-left: 30px;
@@ -101,7 +102,8 @@ body {
 .search-part-of-display input {
   border-style: none;
   border-radius: 10px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
 }
 .search-part-of-display input:focus {
   outline: none;
