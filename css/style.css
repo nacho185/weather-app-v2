@@ -41,7 +41,7 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #20a4f3;
+  background: #011627;
   border-radius: 10px;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 .logo span {
   /*color: rgb(35, 147, 240);*/
-  color: #20a4f3;
+  color: #011627;
 }
 
 /*~logo*/
@@ -70,7 +70,7 @@ body {
 /**main-header-wrapper*/
 .main-header-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/headerimg.jpg");
+    url("../assets/img/bgimg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
