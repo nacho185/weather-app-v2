@@ -136,6 +136,23 @@ url("../assets/img/bgimg.jpeg");
   border-radius: 20px;
   overflow: hidden;
 }
+.toggle-temp-btn{
+  margin-top: 1rem;
+  padding: .7rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255,255,255,.12);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .25s ease;
+}
+
+.toggle-temp-btn:hover{
+  background: rgba(255,255,255,.22);
+  transform: translateY(-2px);
+}
 .search-part-of-display input {
   border-style: none;
   border-radius: 20px;

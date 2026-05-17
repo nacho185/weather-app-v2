@@ -39,8 +39,13 @@ button.addEventListener("click", () => {
         ".png";
       let searchRegion = data["sys"]["country"];
       /**/
-      feels.textContent = "Feels like: " + feelsLike.toFixed(1) + "°c";
-      temperature.textContent = temperatureDisplay.toFixed(1) + "°c";
+         currentTemp = temperatureDisplay;
+         currentFeels = feelsLike;
+
+      feels.textContent =
+       "Feels like: " + currentFeels.toFixed(1) + "°C";
+
+       temperature.textContent =  currentTemp.toFixed(1) + "°C";
       desc.textContent = description;
       windSpeed.textContent = "WindSpeed: " + speedWind;
       searchLocation.textContent = searchName + ", " + searchRegion;
@@ -167,3 +172,47 @@ fetch(urlPart1 + "washington" + "&units=metric" + "&appid=" + ACCESS_KEY)
     searchLocation4.textContent = searchName4 + ", " + searchRegion4;
     imageUrl4.src = Url4;
   });
+
+
+
+  //to farenheit
+let currentTemp = 0;
+let currentFeels = 0;
+let isCelsius = true;
+
+const toggleBtn = document.getElementById("toggleTemp");
+toggleBtn.addEventListener("click", () => {
+
+  if(isCelsius){
+
+    let fahrenheitTemp = (currentTemp * 9/5) + 32;
+    let fahrenheitFeels = (currentFeels * 9/5) + 32;
+
+    temperature.textContent =
+      fahrenheitTemp.toFixed(1) + "°F";
+
+    feels.textContent =
+      "Feels like: " +
+      fahrenheitFeels.toFixed(1) +
+      "°F";
+
+    toggleBtn.textContent = "°C";
+
+    isCelsius = false;
+
+  }else{
+
+    temperature.textContent =
+      currentTemp.toFixed(1) + "°C";
+
+    feels.textContent =
+      "Feels like: " +
+      currentFeels.toFixed(1) +
+      "°C";
+
+    toggleBtn.textContent = "°F";
+
+    isCelsius = true;
+  }
+
+});
